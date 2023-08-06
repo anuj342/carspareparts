@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="button-container">
+        <button class="button" onclick="redirectToPage('page1.html')">Your profile</button>
+        <button class="button" onclick="redirectToPage('page2.html')">Car / Bike model</button>
+        <button class="button" onclick="redirectToPage('page3.html')">Services</button>
+        <button class="button" onclick="redirectToPage('page4.html')">Spare Parts</button>
+        <button class="button" onclick="redirectToPage('page5.html')">About</button>
+    </div>
+    
+
+    <a href="https://api.whatsapp.com/send?phone=7499210895" target="_blank" class="whatsapp-button">
+        <button>Chat with us on WhatsApp</button>
+    </a>
+	<script> 	
+		function redirectToPage(url){
+	window.location.href = url;
+	}
+	</script>
+</body>
+</html>
